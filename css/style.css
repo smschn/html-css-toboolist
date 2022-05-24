@@ -85,3 +85,10 @@ li {
     padding: 10px;
     display: inline-block;
 }
+
+.tag {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+}
