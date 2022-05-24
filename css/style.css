@@ -1,6 +1,6 @@
 header {
     vertical-align: middle;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .header-logo {
@@ -12,34 +12,44 @@ header {
     font-size: 35px;
     font-weight: bold;
     vertical-align: inherit;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
     background-color: #b1bbf8;
     height: 1000px;
-
+    padding-top: 50px;
 }
 
 .container {
     background-color: #fff;
-    width: 60%;
     margin: auto;
     border-radius: 3px;
 }
 
-.container .one {
+.container {
+    width: 60%;
     
+}
+
+.container.one {
+    margin-bottom: 5px;
 }
 
 .button {
     border-radius: 5px;
-    background-color: lightblue;
+    text-align: center;
+    padding: 5px;
 }
 
-.button .left {
-    color: red;
+.button.left {
+    background-color: #47adf1;
+    color: #fff;
+    border: #fff;
 }
 
-.button .right {
-    color: lightgray;
+.button.right {
+    background-color: #fff;
+    border: 1px solid #c6bdd0;
+
 }
