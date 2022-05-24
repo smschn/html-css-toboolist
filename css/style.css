@@ -71,7 +71,6 @@ main {
 
 .list-title::before {
     content: "\25BC";
-
 }
 
 ul {
@@ -81,11 +80,8 @@ ul {
 .list-item {
     padding-left: 0;
 }
-/*
-li:before {
-    content: "\25BC";
-}*/
 
 li {
     padding: 10px;
+    display: inline-block;
 }
