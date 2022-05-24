@@ -1,5 +1,6 @@
 header {
     vertical-align: middle;
+    margin-bottom: 20px;
 }
 
 .header-logo {
@@ -15,8 +16,30 @@ header {
 
 main {
     background-color: #b1bbf8;
+    height: 1000px;
+
 }
 
 .container {
+    background-color: #fff;
     width: 60%;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.container .one {
+    
+}
+
+.button {
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.button .left {
+    color: red;
+}
+
+.button .right {
+    color: lightgray;
 }
