@@ -31,11 +31,11 @@ main {
     background-color: #fff;
     margin: auto;
     width: 60%;
+    padding: 20px;
 }
 
 .container.one {
     margin-bottom: 5px;
-    padding: 20px;
     border-top-right-radius : 5px;
     border-top-left-radius : 5px;
 }
@@ -56,4 +56,9 @@ main {
     background-color: #fff;
     border: 1px solid #c6bdd0;
     color: #c6bdd0;
+}
+
+.container.two {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
