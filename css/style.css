@@ -93,6 +93,14 @@ li {
     display: inline-block;
 }
 
+.check {
+    padding-left: 5px;
+}
+
+.cross {
+    padding-left: 5px;
+}
+
 .check::before {
     content: "\2713 ";
     color: #58bba2;
