@@ -69,6 +69,11 @@ main {
     font-weight: bold;
 }
 
+.list-title::before {
+    content: "\25BC";
+
+}
+
 ul {
     list-style: none;
 }
@@ -76,10 +81,10 @@ ul {
 .list-item {
     padding-left: 0;
 }
-
+/*
 li:before {
     content: "\25BC";
-}
+}*/
 
 li {
     padding: 10px;
