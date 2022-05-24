@@ -1,8 +1,22 @@
+header {
+    vertical-align: middle;
+}
+
+.header-logo {
+    height: 50px;
+    vertical-align: inherit;
+}
+
 .header-title {
     font-size: 35px;
     font-weight: bold;
+    vertical-align: inherit;
 }
 
 main {
     background-color: #b1bbf8;
+}
+
+.container {
+    width: 60%;
 }
