@@ -1,6 +1,12 @@
+body {
+    margin: 0;
+}
+
 header {
     vertical-align: middle;
+    margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .header-logo {
@@ -24,22 +30,20 @@ main {
 .container {
     background-color: #fff;
     margin: auto;
-    border-radius: 3px;
-}
-
-.container {
     width: 60%;
-    
 }
 
 .container.one {
     margin-bottom: 5px;
+    padding: 20px;
+    border-top-right-radius : 5px;
+    border-top-left-radius : 5px;
 }
 
 .button {
     border-radius: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
 }
 
 .button.left {
@@ -51,5 +55,5 @@ main {
 .button.right {
     background-color: #fff;
     border: 1px solid #c6bdd0;
-
+    color: #c6bdd0;
 }
