@@ -67,6 +67,7 @@ main {
 .list-title {
     font-size: 25px;
     font-weight: bold;
+    padding-left: 0;
 }
 
 .list-title::before {
@@ -75,10 +76,16 @@ main {
 
 ul {
     list-style: none;
+    padding-left: 10px;
 }
 
 .list-item {
     padding-left: 0;
+}
+
+.list-item-2 {
+    padding-left: 0px;
+    margin-bottom: 30px;
 }
 
 li {
@@ -87,17 +94,19 @@ li {
 }
 
 .check::before {
-    content: "\2713  ";
+    content: "\2713 ";
     color: #58bba2;
     border: 2px solid #58bba2;
     border-radius: 50%;
+    padding: 1px;
 }
 
 .cross::before {
-    content: "\2717  ";
+    content: "\2717 ";
     color: #ea453b;
     border: 2px solid #ea453b;
     border-radius: 50%;
+    padding: 1px;
 }
 
 .tag {
