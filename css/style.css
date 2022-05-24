@@ -86,6 +86,11 @@ li {
     display: inline-block;
 }
 
+li::before {
+    content: "prova ";
+    color: red;
+}
+
 .tag {
     background-color: red;
     border-radius: 10px;
